@@ -1,0 +1,168 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "InboxAdmin";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<link href="~/RecursosAdmin/Chat/VerMensaje.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Chat/Nuevoc.css" rel="stylesheet" />
+<link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+@*@using (Ajax.BeginForm("InboxAdmin", "AdminInicio", new AjaxOptions() { HttpMethod = "POST" }))*@
+
+<div class="container">
+
+
+    <div class="mail-box">
+        <aside class="sm-side">
+
+            <div class="inbox-body">
+
+                <!-- Modal -->
+                <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                                <h4 class="modal-title">Compose</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form role="form" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">To</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" placeholder="" id="inputEmail1" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">Cc / Bcc</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" placeholder="" id="cc" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">Subject</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" placeholder="" id="inputPassword1" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">Message</label>
+                                        <div class="col-lg-10">
+                                            <textarea rows="10" cols="30" class="form-control" id="" name=""></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-2 col-lg-10">
+                                            <span class="btn green fileinput-button">
+                                                <i class="fa fa-plus fa fa-white"></i>
+                                                <span>Attachment</span>
+                                                <input type="file" name="files[]" multiple="">
+                                            </span>
+                                            <button class="btn btn-send" type="submit">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            </div>
+
+            <ul class="inbox-nav inbox-divider">
+                <li class="active">
+                    <a href="#"><i class="fa fa-inbox"></i> Mensajes Pendientes <span class="label label-danger pull-right">@ViewBag.Count</span></a>
+
+                </li>
+                <li>
+                    <a href="~/AdminInicio/MensajesLeidos"><i class="fa fa-envelope-o"></i> Mensajes Respondidos </a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+
+            <div class="inbox-body text-center">
+                <div class="btn-group">
+
+                </div>
+                <div class="btn-group">
+                    <a href="javascript:;">
+
+                    </a>
+                </div>
+                <div class="btn-group">
+                    <a href="javascript:;">
+
+                    </a>
+                </div>
+            </div>
+
+        </aside>
+        <aside class="lg-side">
+            <div class="Nuevoc">
+
+
+            </div>
+            <div class="inbox-body">
+
+
+                @foreach (DataRow row in Model.Rows)
+                {
+                    <table class="table table-inbox table-hover">
+                        <tbody>
+
+                            <tr class="">
+                                <td class="inbox-small-cells">
+                                    <input type="checkbox" class="mail-checkbox">
+                                </td>
+
+
+                                <td class="view-message dont-show text-center">@row["Remitente"]</td>
+                                <td class="view-message text-center" onclick="location.href='@($"/AdminInicio/ResponderAdmin/{@row["ID"]}")'"> @row["Asunto"]</td>
+                                <td class="view-message inbox-small-cells"></td>
+                                <td class="view-message text-right">@row["Fecha"]</td>
+
+
+                                @*<tr id="fila_@row["ID"]">*
+                                    <@Html.ActionLink("Responder","ResponderAdmin","AdminInicio",new { ID = @row["ID"] },null)>*@
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                }
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34731274-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackEvent', 'sharing', 'viewed full-screen', 'snippet pe54a', 0, true]);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script type="text/javascript">
+    (function ($) {
+        $('#theme_chooser').change(function () {
+            whichCSS = $(this).val();
+            document.getElementById('snippet-preview').contentWindow.changeCSS(whichCSS);
+        });
+    })(jQuery);
+</script>               

@@ -1,0 +1,90 @@
+﻿@using System.Data;
+@model DataTable
+
+
+@using (Ajax.BeginForm("guardaring", "Administrador", new AjaxOptions() { HttpMethod = "POST" }))
+{
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title">INGREDIENTES</h4>
+                        </div>
+                        <div class="content">
+                            <form>
+                                <div class="row">
+                                    <div class="clearfix"></div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="panel panel-default">
+
+                                                <div class="panel-body panel-body-table">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered table-striped table-actions">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th width="50">ID</th>
+                                                                    <th>Codigo</th>
+                                                                    <th>Nombre</th>
+                                                                    <th width="100">ESTADO</th>
+                                                                    <th>MEDIDA</th>
+                                                                    <th>FECHA</th>
+                                                                    <th>CANTIDAD</th>
+                                                                    <th width="100">ACCION</th>
+                                                                </tr>
+                                                            </thead>
+
+                                                            
+                                                           
+                                                            @foreach (DataRow row in Model.Rows)
+                                                            {
+                                                                var algo = Model.Rows.Count;
+
+                                                                <tbody>
+
+
+                                                                    <tr id="trow_1">
+                                                                        <td class="text-center">@row["ID"]</td>
+                                                                        <td>
+                                                                            <div class="form-group">
+                                                                                <input type="text" class="form-control" placeholder="ID" name="ID" value=@row["ID"]>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td><strong>@row["NOMBRE"]</strong></td>
+                                                                        <td><span class="label label-success">@row["Estado"]</span></td>
+                                                                        <td>@row["MEDIDA"]</td>
+                                                                        <td>@row["FECHACREACION"]</td>
+                                                                        <td>
+                                                                            <div class="form-group">
+                                                                                <input type="text" class="form-control" placeholder="Cantidad" name="Cantidad">
+                                                                            </div>
+                                                                        </td>
+                                                                        
+                                                                        <td><button id="Button1" type="submit" class="btn btn-info btn-fill pull-right">Agregar ingredientes</button></td>
+
+                                                                        
+
+                                                                </tbody>
+                                                            }
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+                                                }

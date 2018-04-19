@@ -1,0 +1,36 @@
+﻿@using System.Data
+@model DataTable
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+
+            <div class="panel-body panel-body-table">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-actions">
+                        <thead>
+                            <tr>
+                                <th>Cantidad</th>
+                                <th>Ingrediente</th>
+
+                            </tr>
+                        </thead>
+                        @foreach (DataRow row in Model.Rows)
+                        {
+
+                            <tbody>
+
+
+                                <tr id="trow_1">
+                                    <td><strong>@row["CANTIDAD"]</strong></td>
+                                    <td>@row["NOMBRE"]</td>
+
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

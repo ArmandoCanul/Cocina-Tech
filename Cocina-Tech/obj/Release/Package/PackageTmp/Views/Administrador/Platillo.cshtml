@@ -1,0 +1,54 @@
+﻿@using System.Data
+@model DataTable
+
+@{
+    ViewBag.Title = "Platillo";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+
+            <div class="panel-body panel-body-table">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-actions">
+                        <thead>
+                            <tr>
+                                <th width="50">ID</th>
+                                <th>NOMBRE Platillo</th>
+                                <th width="100">TIEMPO DE PREPARACION</th>
+                                <th width="100">FECHA DE CREACION</th>
+                                <th width="100">PRECIO</th>
+                                <th width="100">ESTADO</th>
+                            </tr>
+                        </thead>
+                        @foreach (DataRow row in Model.Rows)
+                        {
+
+                            <tbody>
+
+
+                                <tr id="trow_1">
+                                    <td class="text-center">@row["ID"]</td>
+                                    <td><strong>@row["NOMBRE"]</strong></td>
+                                    <td>@row["TIEMPODEPREPARACION"]</td>
+                                    <td><strong>@row["FECHACREACIONPLATILLO"]</strong></td>
+                                    <td><strong>@row["PRECIO"]</strong></td>
+                                    <td><span class="label label-success">@row["ESTADO"]</span></td>
+                                   
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @{ Html.RenderAction("Ingredientexplatillo", "Administrador");}
+</div>
+<div>
+    @{ Html.RenderAction("Ingredientes", "Administrador");}
+</div>
+

@@ -1,0 +1,94 @@
+﻿@using System.Data;
+@model DataTable
+
+@{
+    ViewBag.Title = "EstadoPlatillo";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Estado del Platillo</h4>
+                    </div>
+                    <div class="content">
+                        @using (Ajax.BeginForm("Agregar", "EstadoPedido", new AjaxOptions() { HttpMethod = "POST" }))
+                        {
+
+                            @Html.AntiForgeryToken();
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <input type="text" class="form-control" placeholder="Platillo" name="Nombre">
+                                    </div>
+                                </div>
+                            </div>
+                            <input id="Button1" type="submit" value="Agregar" class="button button-block" placeholder="Agregar" />
+                        }
+                    </div>
+
+                    <div class="content">
+                        <form>
+                            <div class="row">
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body panel-body-table">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered table-striped table-actions">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="50">ID</th>
+                                                                <th>Nombre</th>
+                                                                <th width="100">ACCION</th>
+                                                            </tr>
+                                                        </thead>
+
+
+
+                                                        @foreach (DataRow row in Model.Rows)
+                                                        {
+                                                            var mod = Model.Rows.Count;
+
+                                                            <tbody>
+                                                                <tr id="trow_1">
+                                                                    <td class="text-center">@row["IDEstado"]</td>
+                                                                    <td>
+                                                                        <div class="form-group">
+                                                                            <input type="text" class="form-control" placeholder="ID" name="ID" value=@row["Nombre"]>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        @*<button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='@($"/EstadoPlatillo/Eliminar/{@row["IDEstado"]}")'">*@
+                                                                        <button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='/EstadoPedido/Eliminar?IDEstado=@row["IDEstado"]'">
+                                                                            <span class="fa fa-times">
+                                                                            </span>
+                                                                        </button>
+                                                                    </td>
+                                                            </tbody>
+                                                        }
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

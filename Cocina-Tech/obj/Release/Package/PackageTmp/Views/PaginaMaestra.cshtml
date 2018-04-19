@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inicio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS
+    ================================================ -->
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="~/Renove/css/owl.carousel.css">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="~/Renove/css/bootstrap.min.css">
+    <!-- Font-awesome.min css -->
+    <link rel="stylesheet" href="~/Renove/css/font-awesome.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="~/Renove/css/animate.min.css">
+    <link rel="stylesheet" href="~/Renove/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/RecursosAdmin/engine1/style.css" />
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="~/Renove/css/responsive.css">
+
+    <link href="~/Renove/bootstrap3modal/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="~/Renove/login-register.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <!-- Js -->
+    <script src="~/Renove/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="~/Renove/js/jquery.nav.js"></script>
+    <script src="~/Renove/js/jquery.sticky.js"></script>
+    <script src="~/Renove/js/bootstrap.min.js"></script>
+    <script src="~/Renove/js/plugins.js"></script>
+    <script src="~/Renove/js/wow.min.js"></script>
+    <script src="~/Renove/js/main.js"></script>
+
+    <script type="text/javascript" src="~/RecursosAdmin/engine1/jquery.js"></script>
+
+
+    <script src="~/Renove/bootstrap3modal/js/bootstrap.js" type="text/javascript"></script>
+    <script src="~/Renove/login-register.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--
+    header-img start
+    ============================== -->
+    <section id="hero-area">
+        <img class="img-responsive" src="~/Renove/images/header.jpg" height="100">
+    </section>
+    <!--
+    Header start
+    ============================== -->
+    <nav id="navigation">
+        <div class="container">
+
+            @using (Ajax.BeginForm("Loguearse", "Login", new AjaxOptions() { HttpMethod = "POST" }))
+            {
+                @Html.AntiForgeryToken();
+                <div class="modal fade login" id="loginModal">
+                    <div class="modal-dialog login animated">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Inicia Sesión</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="box">
+                                    <div class="content">
+                                        <div class="error"></div>
+                                        <div class="form loginBox">
+                                            <form method="post" action="/login" accept-charset="UTF-8">
+                                                <input id="email" class="form-control" type="text" placeholder="Usuario" name="Usuario">
+                                                <a href="~/Views/Principal/InicioPrincipal.cshtml"></a>
+                                                <input id="password" class="form-control" type="password" placeholder="Contraseña" name="Contraseña">
+                                                <input class="btn btn-default btn-login" type="submit" value="Iniciar Sesión">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="forgot login-footer">
+                                    <span>
+                                        Quieres
+                                        <a href="@Url.Action("Loggin", "Login")">crear una cuenta</a>
+                                        ?
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+
+            @if (ViewBag.id == null)
+            {
+                <script type="text/javascript">
+                    window.onload = function () {
+                        swal("Logueado", "asdaw", "success")
+                    }
+                </script>
+            }
+
+
+            <script async="" src="//www.google-analytics.com/analytics.js"></script>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="~/RecursosAdmin/Login/js/index.js"></script>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <div style="width: 85px;height: 85px;border: 1px solid orange;border-radius: 50%;float:  left;margin: -23px;background-image:url(../Renove/images/CocinaTech.jpg);background-size:cover">
+
+                        </div>
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    @*<a class="navbar-brand" href="@Url.Action("InicioPrincipal", "Principal")">*@
+                                    <a href="@Url.Action("InicioPrincipal", "Principal")" " <img src="~/Renove/images/logo.png" alt="Logo"></a>
+                                    </>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                        <li><a href="@Url.Action("Nosotros", "Principal")">Nosotros</a></li>
+                                        <li><a href="~/Menu/Menu">Menu</a></li>
+                                        <li><a href="~/Principal/ContactoInicio">Contacto</a></li>
+                                        @if (Session["Nombre_usu"] == null)
+                                        {
+                                            <li><a href="@Url.Action("Loggin", "Login")">Registro</a></li>
+                                            <li><a data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Iniciar Sesión</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                    <p>
+                                                        @Session["Nombre_usu"]
+
+
+                                                        <b class="caret"></b>
+                                                    </p>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="~/Usuario/Miperfil">Mi Perfil</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="~/Principal/InicioPrincipal">Cerrar Sesión</a></li>
+                                                </ul>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+
+
+        </div><!-- .container close -->
+    </nav><!-- header close -->
+
+    <main class="site-container">
+        <section>
+            @RenderBody()
+        </section>
+    </main>
+
+    <!--
+       footer-bottom  start
+       ============================= -->
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Todos los derechos reservados. Sitio desarrollado por alumnos de la Universidad Tecnológica Metropolitana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="~/RecursosAdmin/js/jquery-1.11.2.min.js"></script>
+    <script src="~/RecursosAdmin/js/bootstrap.min.js"></script>
+    <script src="~/RecursosAdmin/js/jquery.easing.1.3.js"></script>
+    <script src="~/RecursosAdmin/js/wow.min.js"></script>
+    <script src="~/RecursosAdmin/js/plugins.js"></script>
+    <script src="~/RecursosAdmin/js/main.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+</body>
+</html>
+

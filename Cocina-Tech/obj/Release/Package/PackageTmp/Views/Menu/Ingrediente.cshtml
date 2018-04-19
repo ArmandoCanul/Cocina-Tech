@@ -1,0 +1,11 @@
+﻿@using System.Data;
+@model DataTable
+@foreach (DataRow row in Model.Rows)
+{
+    <div class="blog-left-bottom left-bottom">
+        <p>
+            @row["INGREDIENTE"]
+        </p>
+    </div>
+}
+

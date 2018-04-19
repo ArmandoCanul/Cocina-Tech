@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "VistaIngrediente";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+@using System.Data;
+@model DataTable
+
+
+@using (Ajax.BeginForm("Ingrediente", "RegistroPlatillo", new AjaxOptions() { HttpMethod = "POST" }))
+{
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title">INGREDIENTES</h4>
+                        </div>
+                        <div class="content">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label>Ingrediente</label>
+                                            <input type="text" class="form-control" placeholder="Nombre" name="Nombre">
+                                        </div>
+                                    </div>                                   
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            @{
+                                                Html.RenderAction("vistaMedida", "RegistroPlatillo");
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2" style="margin-top:24px">
+                                        <button type="submit" class="btn btn-info btn-fill">Guardar</button>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <!--label>Reporte</!--label>-->
+                                            @*@Html.ActionLink("Reporte", "ReporteIngrediente", "Reportes")*@
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="panel panel-default">
+
+                                                <div class="panel-body panel-body-table">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered table-striped table-actions">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th width="50">ID</th>
+                                                                    <th>Nombre</th>
+                                                                    <th width="100">ESTADO</th>
+                                                                    <th>MEDIDA</th>
+                                                                    <th>FECHA</th>
+                                                                    <th width="50">IDMEDIDA</th>                                                                   
+                                                                    <th width="100">ACCION</th>
+                                                                </tr>
+                                                            </thead>
+                                                            @foreach (DataRow row in Model.Rows)
+                                                            {
+                                                                <tbody>
+
+
+                                                                    <tr id="trow_1">
+                                                                        <td class="text-center">@row["ID"]</td>
+                                                                        <td><strong>@row["NOMBRE"]</strong></td>
+                                                                        <td><span class="label label-success">@row["Estado"]</span></td>
+                                                                        <td>@row["MEDIDA"]</td>
+                                                                        <td>@row["FECHACREACION"]</td>
+                                                                        <td>@row["IDMEDIDA"]</td>
+                                                                        <td>
+                                                                            <button class="btn btn-default btn-rounded btn-sm" onclick="location.href='@($"/RegistroPlatillo/EliminarIng/{@row["ID"]}")'">
+                                                                                <span class="fa fa-pencil">
+                                                                                </span>
+                                                                            </button>
+
+
+                                                                        </td>
+
+                                                                </tbody>
+                                                            }
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+                                                }

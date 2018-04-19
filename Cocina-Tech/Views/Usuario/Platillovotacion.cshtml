@@ -1,0 +1,89 @@
+﻿@using System.Data;
+@model DataTable
+
+@{
+    ViewBag.Title = "Platillovotacion";
+    Layout = "~/Views/PaginasMaestras/UsuarioLogeado/UsuarioMaster.cshtml";
+}
+
+<link href="~/RecursosAdmin/Menu/css1/style.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Menu/css1/styles.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Menu/css1/component.css" rel="stylesheet" />
+<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+<section id="portfolio" class="portfolio">
+    <div class="content">
+        <div class="events">
+            <div class="container">
+                <div class="events-top">
+                    <div class="col-md-4 events-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <h3>PLATILLOS</h3>
+                        <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                        <span>Elige el platillo que te guste</span>
+                    </div>
+                    <div class="col-md-8 events-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <p>Cada Lunes se subiran 3 platillos nuevos los cuales podras elegir cual platillo se agregara al menu los dias viernes se esta anundiando el platillo nuevo y los lunes podran ordenarlo en nuestro menu</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                @foreach (DataRow row in Model.Rows)
+                {
+                    <div class="events-bottom">
+                        <div class="col-md-5 events-bottom1 animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <a href="single.html">
+                                @{
+                                    string Fot = "data:image/jpeg;base64," + Convert.ToBase64String((byte[])@row["PORTADA"]);
+                                    <img class="img-responsive" src="@Fot" alt="..." />
+                                }
+
+                        </div>
+                        <div class="col-md-7 events-bottom2 animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <h3>@row["NOMBRE"]</h3>
+                            <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                            <p>
+
+                                @row["DESCRIPCION"]
+                                @row["PRECIO"]
+                            </p>
+                            <div class="read-more">
+
+                                @{
+                                    if (ViewBag.platilo1 == row["ID_TEM"].ToString())
+                                    {
+                                        <a class="link link-yaku">
+                                            <span>V</span><span>O</span><span>T</span><span>A</span>R <span></span><span>A</span><span>Q</span>U<span>I</span>
+                                        </a>
+                                    }
+                                    else if (ViewBag.platilo2 == row["ID_TEM"].ToString())
+                                    {
+                                        <a class="link link-yaku">
+                                            <span>V</span><span>O</span><span>T</span><span>A</span>R <span></span><span>A</span><span>Q</span>U<span>I</span>
+                                        </a>
+                                    }
+                                    else if (ViewBag.platilo3 == row["ID_TEM"].ToString())
+                                    {
+                                        <a class="link link-yaku">
+                                            <span>V</span><span>O</span><span>T</span><span>A</span>R <span></span><span>A</span><span>Q</span>U<span>I</span>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a class="link link-yaku" href="@($"/Usuario/Vota?IDT={row["ID_TEM"]}")">
+                                            <span>V</span><span>O</span><span>T</span><span>A</span>R <span></span><span>A</span><span>Q</span>U<span>I</span>
+                                        </a>
+                                    }
+                                }
+
+
+
+                            </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                                    }
+            </div>
+        </div>
+    </div>
+
+
+
+</section>

@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF8D7848-1745-4327-9859-1E06B3A7C8D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cocina_Tech</RootNamespace>
+    <AssemblyName>Cocina-Tech</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="RecursosAdmin\Administrador\css\animate.min.css" />
+    <Content Include="RecursosAdmin\Administrador\css\bootstrap.min.css" />
+    <Content Include="RecursosAdmin\Administrador\css\demo.css" />
+    <Content Include="RecursosAdmin\Administrador\css\Imagen.css" />
+    <Content Include="RecursosAdmin\Administrador\css\light-bootstrap-dashboard.css" />
+    <Content Include="RecursosAdmin\Administrador\css\pe-icon-7-stroke.css" />
+    <Content Include="RecursosAdmin\Administrador\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="RecursosAdmin\Administrador\img\sidebar-2.jpg" />
+    <Content Include="RecursosAdmin\Administrador\img\sidebar-3.jpg" />
+    <Content Include="RecursosAdmin\Administrador\img\sidebar-5.jpg" />
+    <Content Include="RecursosAdmin\Administrador\js\bootstrap-notify.js" />
+    <Content Include="RecursosAdmin\Administrador\js\bootstrap-select.js" />
+    <Content Include="RecursosAdmin\Administrador\js\bootstrap.min.js" />
+    <Content Include="RecursosAdmin\Administrador\js\chartist.min.js" />
+    <Content Include="RecursosAdmin\Administrador\js\demo.js" />
+    <Content Include="RecursosAdmin\Administrador\js\jquery.3.2.1.min.js" />
+    <Content Include="RecursosAdmin\Administrador\js\light-bootstrap-dashboard.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\AdminLTE.min.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\font-awesome.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\font-awesome.min.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\light-bootstrap-dashboard.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\metisMenu.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\metisMenu.min.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\sb-admin-2.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\css\sb-admin-2.min.css" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\metisMenu.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\metisMenu.min.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\morris.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\morris.min.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\raphael.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\raphael.min.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\sb-admin-2.js" />
+    <Content Include="RecursosAdmin\Administrador\Template2\js\sb-admin-2.min.js" />
+    <Content Include="RecursosAdmin\Chat\bootstrap.min.css" />
+    <Content Include="RecursosAdmin\Chat\Contacto.css" />
+    <Content Include="RecursosAdmin\Chat\custom.min.css" />
+    <Content Include="RecursosAdmin\Chat\Responder.css" />
+    <Content Include="RecursosAdmin\Chat\style.css" />
+    <Content Include="RecursosAdmin\Chat\VerMensaje.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\bootstrap.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\Control.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\demo-page.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\examples.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\font-awesome.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\geochart.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\hover.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\magnific-popup.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\css\style.css" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\fontawesome-webfont.svg" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\1.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\404.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\b3.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\climate.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\close.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\ftr-icons.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\icon.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\login.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\mess.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\next.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p1.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p2.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p3.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p4.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p5.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p6.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p7.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\p8.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\prev.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro1.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro10.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro12.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro2.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro3.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro4.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro5.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro6.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro7.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro8.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\pro9.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\reg.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\search.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\shoppy.jpg" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\tick.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\images\visit.png" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\bars.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\bootstrap.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\Chart.min.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\chartinator.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\gmaps.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\jquery-2.1.1.min.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\jquery.magnific-popup.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\jquery.nicescroll.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\modernizr.min.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\nivo-lightbox.min.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\scripts.js" />
+    <Content Include="RecursosAdmin\ChefAdmin\js\skycons.js" />
+    <Content Include="RecursosAdmin\css\animate.css" />
+    <Content Include="RecursosAdmin\css\bootstrap.min.css" />
+    <Content Include="RecursosAdmin\css\font-awesome.min.css" />
+    <Content Include="RecursosAdmin\css\Loader.css" />
+    <Content Include="RecursosAdmin\css\mistilo.css" />
+    <Content Include="RecursosAdmin\css\plugins.css" />
+    <Content Include="RecursosAdmin\css\responsive.css" />
+    <Content Include="RecursosAdmin\css\style.css" />
+    <Content Include="RecursosAdmin\data1\images\1.jpg" />
+    <Content Include="RecursosAdmin\data1\images\2.jpg" />
+    <Content Include="RecursosAdmin\data1\images\3.jpg" />
+    <Content Include="RecursosAdmin\data1\tooltips\1.jpg" />
+    <Content Include="RecursosAdmin\data1\tooltips\2.jpg" />
+    <Content Include="RecursosAdmin\data1\images\foodphotography2834549_640.jpg" />
+    <Content Include="RecursosAdmin\data1\images\lambslettuce3181610_640.jpg" />
+    <Content Include="RecursosAdmin\data1\images\paprika3212137_640.jpg" />
+    <Content Include="RecursosAdmin\data1\tooltips\3.jpg" />
+    <Content Include="RecursosAdmin\data1\tooltips\foodphotography2834549_640.jpg" />
+    <Content Include="RecursosAdmin\data1\tooltips\lambslettuce3181610_640.jpg" />
+    <Content Include="RecursosAdmin\data1\tooltips\paprika3212137_640.jpg" />
+    <Content Include="RecursosAdmin\engine1\arrows.png" />
+    <Content Include="RecursosAdmin\engine1\bullet.png" />
+    <Content Include="RecursosAdmin\engine1\jquery.js" />
+    <Content Include="RecursosAdmin\engine1\pause.png" />
+    <Content Include="RecursosAdmin\engine1\play.png" />
+    <Content Include="RecursosAdmin\engine1\script.js" />
+    <Content Include="RecursosAdmin\engine1\shadow.png" />
+    <Content Include="RecursosAdmin\engine1\style.css" />
+    <Content Include="RecursosAdmin\engine1\style.mod.css" />
+    <Content Include="RecursosAdmin\engine1\triangle.png" />
+    <Content Include="RecursosAdmin\engine1\wowslider.js" />
+    <Content Include="RecursosAdmin\engine1\wowslider.mod.js" />
+    <Content Include="RecursosAdmin\hd\food-photography-2834549_640.jpg" />
+    <Content Include="RecursosAdmin\hd\lambs-lettuce-3181610_640.jpg" />
+    <Content Include="RecursosAdmin\hd\paprika-3212137_640.jpg" />
+    <Content Include="RecursosAdmin\IMG\ab.png" />
+    <Content Include="RecursosAdmin\IMG\abtbg.jpg" />
+    <Content Include="RecursosAdmin\IMG\apps.png" />
+    <Content Include="RecursosAdmin\IMG\appsbg.jpg" />
+    <Content Include="RecursosAdmin\IMG\bannerbg.jpg" />
+    <Content Include="RecursosAdmin\IMG\burger.gif" />
+    <Content Include="RecursosAdmin\IMG\Cocina.png" />
+    <Content Include="RecursosAdmin\IMG\descarga1234.png" />
+    <Content Include="RecursosAdmin\IMG\fondo.jpg" />
+    <Content Include="RecursosAdmin\IMG\fondo2.jpg" />
+    <Content Include="RecursosAdmin\IMG\footerbg.jpg" />
+    <Content Include="RecursosAdmin\IMG\ft.png" />
+    <Content Include="RecursosAdmin\IMG\ftbg.jpg" />
+    <Content Include="RecursosAdmin\IMG\google.png" />
+    <Content Include="RecursosAdmin\IMG\iphone.png" />
+    <Content Include="RecursosAdmin\IMG\loading gif 4.gif" />
+    <Content Include="RecursosAdmin\IMG\loading.gif" />
+    <Content Include="RecursosAdmin\IMG\logo1.png" />
+    <Content Include="RecursosAdmin\IMG\logotech.png" />
+    <Content Include="RecursosAdmin\IMG\logotech_opt %281%29.png" />
+    <Content Include="RecursosAdmin\IMG\logotech_opt.png" />
+    <Content Include="RecursosAdmin\IMG\logotipo.png" />
+    <Content Include="RecursosAdmin\IMG\newsbg.jpg" />
+    <Content Include="RecursosAdmin\IMG\newsone.jpg" />
+    <Content Include="RecursosAdmin\IMG\newsthree.jpg" />
+    <Content Include="RecursosAdmin\IMG\newstwo.jpg" />
+    <Content Include="RecursosAdmin\IMG\p1.png" />
+    <Content Include="RecursosAdmin\IMG\p2.png" />
+    <Content Include="RecursosAdmin\IMG\p3.png" />
+    <Content Include="RecursosAdmin\IMG\p4.png" />
+    <Content Include="RecursosAdmin\IMG\p5.png" />
+    <Content Include="RecursosAdmin\IMG\p6.png" />
+    <Content Include="RecursosAdmin\IMG\p7.png" />
+    <Content Include="RecursosAdmin\IMG\p8.png" />
+    <Content Include="RecursosAdmin\IMG\pkli.png" />
+    <Content Include="RecursosAdmin\IMG\portfoliobg.jpg" />
+    <Content Include="RecursosAdmin\IMG\preloading.gif" />
+    <Content Include="RecursosAdmin\IMG\textbg.jpg" />
+    <Content Include="RecursosAdmin\js\bootstrap.min.js" />
+    <Content Include="RecursosAdmin\js\jquery-1.11.2.min.js" />
+    <Content Include="RecursosAdmin\js\jquery.easing.1.3.js" />
+    <Content Include="RecursosAdmin\js\main.js" />
+    <Content Include="RecursosAdmin\js\Modal.js" />
+    <Content Include="RecursosAdmin\js\modernizr-2.8.3-respond-1.4.2.min.js" />
+    <Content Include="RecursosAdmin\js\plugins.js" />
+    <Content Include="RecursosAdmin\js\wow.min.js" />
+    <Content Include="RecursosAdmin\Login\css\style.css" />
+    <Content Include="RecursosAdmin\Login\jquery.vide.min.js" />
+    <Content Include="RecursosAdmin\Login\js\index.js" />
+    <Content Include="RecursosAdmin\Login\scss\Portada1.jpg" />
+    <Content Include="RecursosAdmin\Login\scss\portada2.jpg" />
+    <Content Include="RecursosAdmin\Login\style.css" />
+    <Content Include="RecursosAdmin\Login\tr.mp4" />
+    <Content Include="RecursosAdmin\Menu\css1\component.css" />
+    <Content Include="RecursosAdmin\Menu\css1\ev.jpg" />
+    <Content Include="RecursosAdmin\Menu\css1\ev1.jpg" />
+    <Content Include="RecursosAdmin\Menu\css1\ev2.jpg" />
+    <Content Include="RecursosAdmin\Menu\css1\ev3.jpg" />
+    <Content Include="RecursosAdmin\Menu\css1\main.css" />
+    <Content Include="RecursosAdmin\Menu\css1\style.css" />
+    <Content Include="RecursosAdmin\Menu\css1\styles.css" />
+    <Content Include="RecursosAdmin\Menu\css\bootstrap.css" />
+    <Content Include="RecursosAdmin\Menu\css\font-awesome.css" />
+    <Content Include="RecursosAdmin\Menu\css\style.css" />
+    <Content Include="RecursosAdmin\Menu\images\banner-bg.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\m1.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\m2.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\m3.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\m4.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\m5.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\m6.jpg" />
+    <Content Include="RecursosAdmin\Menu\images\res02.jpg" />
+    <Content Include="RecursosAdmin\Menu\js\bootstrap.js" />
+    <Content Include="RecursosAdmin\Menu\js\jarallax.js" />
+    <Content Include="RecursosAdmin\Menu\js\jquery-1.11.1.min.js" />
+    <Content Include="RecursosAdmin\Menu\js\jquery.vide.min.js" />
+    <Content Include="RecursosAdmin\Menu\js\SmoothScroll.min.js" />
+    <Content Include="RecursosAdmin\Menu\MENUPRO\css\shop-homepage.css" />
+    <Content Include="RecursosAdmin\Miperfil\css\bootstrap.min.css" />
+    <Content Include="RecursosAdmin\Miperfil\css\font-awesome.min.css" />
+    <Content Include="RecursosAdmin\Miperfil\css\portfolio.jquery.css" />
+    <Content Include="RecursosAdmin\Miperfil\css\Redimensionar.css" />
+    <Content Include="RecursosAdmin\Miperfil\css\style.css" />
+    <Content Include="RecursosAdmin\Miperfil\css\TarjetaCredito.css" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\css\font-awesome.css" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\css\font-awesome.min.css" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\fonts\fontawesome-webfont.svg" />
+    <Content Include="RecursosAdmin\Miperfil\img\555555.jpg" />
+    <Content Include="RecursosAdmin\Miperfil\img\user.jpg" />
+    <Content Include="RecursosAdmin\Miperfil\img\YO.jpg" />
+    <Content Include="RecursosAdmin\Miperfil\js\creditcard.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\jquery-1.11.1.min.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\jquery.easing.min.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\jquery.scrollUp.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\jquery.validate.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\jquery.validate.min.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\marinka.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\portfolio.jquery.js" />
+    <Content Include="RecursosAdmin\Miperfil\js\scrolling-nav.js" />
+    <Content Include="RecursosAdmin\RegistroPro\css\demo.css" />
+    <Content Include="RecursosAdmin\RegistroPro\css\sky-forms.css" />
+    <Content Include="RecursosAdmin\RegistroPro\img\bg-black.jpg" />
+    <Content Include="RecursosAdmin\RegistroPro\img\bg-cyan.jpg" />
+    <Content Include="RecursosAdmin\RegistroPro\img\bg-yellow.jpg" />
+    <Content Include="RecursosAdmin\Registro\css\font-awesome.css" />
+    <Content Include="RecursosAdmin\Registro\css\font-awesome.min.css" />
+    <Content Include="RecursosAdmin\Registro\css\form-elements.css" />
+    <Content Include="RecursosAdmin\Registro\css\style.css" />
+    <Content Include="RecursosAdmin\Registro\img\ebook%402x.png" />
+    <Content Include="RecursosAdmin\Registro\img\logo.png" />
+    <Content Include="RecursosAdmin\Registro\js\jquery-1.11.1.js" />
+    <Content Include="RecursosAdmin\Registro\js\jquery-1.11.1.min.js" />
+    <Content Include="RecursosAdmin\Registro\js\jquery.backstretch.js" />
+    <Content Include="RecursosAdmin\Registro\js\jquery.backstretch.min.js" />
+    <Content Include="RecursosAdmin\Registro\js\placeholder.js" />
+    <Content Include="RecursosAdmin\Registro\js\retina-1.1.0.js" />
+    <Content Include="RecursosAdmin\Registro\js\retina-1.1.0.min.js" />
+    <Content Include="RecursosAdmin\Registro\js\scripts.js" />
+    <Content Include="Renove\bootstrap3modal\css\bootstrap-theme.css" />
+    <Content Include="Renove\bootstrap3modal\css\bootstrap-theme.min.css" />
+    <Content Include="Renove\bootstrap3modal\css\bootstrap.css" />
+    <Content Include="Renove\bootstrap3modal\css\bootstrap.min.css" />
+    <Content Include="Renove\bootstrap3modal\css\font-awesome.css" />
+    <Content Include="Renove\bootstrap3modal\fonts\fontawesome-webfont.svg" />
+    <Content Include="Renove\bootstrap3modal\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Renove\bootstrap3modal\js\bootstrap.js" />
+    <Content Include="Renove\bootstrap3modal\js\bootstrap.min.js" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\css\blue%402x.png" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\css\blue.css" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\css\blue.png" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\js\custom.js" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\js\custom.min.js" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\js\icheck.js" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\js\jquery.js" />
+    <Content Include="Renove\css\animate.min.css" />
+    <Content Include="Renove\css\bootstrap.min.css" />
+    <Content Include="Renove\css\font-awesome.min.css" />
+    <Content Include="Renove\css\main.css" />
+    <Content Include="Renove\css\owl.carousel.css" />
+    <Content Include="Renove\css\responsive.css" />
+    <Content Include="Renove\fonts\fontawesome-webfont.svg" />
+    <Content Include="Renove\images\001-cloud-computing.png" />
+    <Content Include="Renove\images\001-restaurant.png" />
+    <Content Include="Renove\images\001-to-do-list.png" />
+    <Content Include="Renove\images\002-note.png" />
+    <Content Include="Renove\images\002-tray.png" />
+    <Content Include="Renove\images\003-checked-files.png" />
+    <Content Include="Renove\images\003-covered-food-tray-on-a-hand-of-hotel-room-service.png" />
+    <Content Include="Renove\images\003-group.png" />
+    <Content Include="Renove\images\004-cutlery.png" />
+    <Content Include="Renove\images\005-envelope.png" />
+    <Content Include="Renove\images\006-salad.png" />
+    <Content Include="Renove\images\007-groceries.png" />
+    <Content Include="Renove\images\008-measuring-cup.png" />
+    <Content Include="Renove\images\009-list.png" />
+    <Content Include="Renove\images\010-category.png" />
+    <Content Include="Renove\images\011-chef.png" />
+    <Content Include="Renove\images\012-cooking.png" />
+    <Content Include="Renove\images\blog\blog-bg.jpg" />
+    <Content Include="Renove\images\blog\blog-img-1.jpg" />
+    <Content Include="Renove\images\blog\blog-img-2.jpg" />
+    <Content Include="Renove\images\blog\blog-img-3.jpg" />
+    <Content Include="Renove\images\blog\blog-img-4.jpg" />
+    <Content Include="Renove\images\blog\blog-img-5.jpg" />
+    <Content Include="Renove\images\blog\blog-img-6.jpg" />
+    <Content Include="Renove\images\blog\blog-img-thumb-1.jpg" />
+    <Content Include="Renove\images\blog\blog-img-thumb-2.jpg" />
+    <Content Include="Renove\images\CocinaTech.jpg" />
+    <Content Include="Renove\images\cooker-img.png" />
+    <Content Include="Renove\images\header.jpg" />
+    <Content Include="Renove\images\logo.png" />
+    <Content Include="Renove\images\nuevo-icono-google-play-escritorio-1.jpg" />
+    <Content Include="Renove\images\overlay-pattern.png" />
+    <Content Include="Renove\images\overlay-pattern2.png" />
+    <Content Include="Renove\images\photo\photo-1.jpg" />
+    <Content Include="Renove\images\photo\photo-2.jpg" />
+    <Content Include="Renove\images\photo\photo-3.jpg" />
+    <Content Include="Renove\images\photo\photo-4.jpg" />
+    <Content Include="Renove\images\slider\slider-img-1.jpg" />
+    <Content Include="Renove\images\slider\slider-img-2.jpg" />
+    <Content Include="Renove\images\slider\slider-img-3.jpg" />
+    <Content Include="Renove\images\slider\slider-img-4.jpg" />
+    <Content Include="Renove\images\subscribe-bg.jpg" />
+    <Content Include="Renove\jquerymodal\jquery-1.10.2.js" />
+    <Content Include="Renove\jquerymodal\jquery-ui.custom.min.js" />
+    <Content Include="Renove\js\bootstrap.min.js" />
+    <Content Include="Renove\js\jquery.nav.js" />
+    <Content Include="Renove\js\jquery.sticky.js" />
+    <Content Include="Renove\js\main.js" />
+    <Content Include="Renove\js\min\main.min.js" />
+    <Content Include="Renove\js\plugins.js" />
+    <Content Include="Renove\js\vendor\jquery-1.10.2.min.js" />
+    <Content Include="Renove\js\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="Renove\js\wow.min.js" />
+    <Content Include="Renove\login-register.css" />
+    <Content Include="Renove\login-register.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\CocinaTechController.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="BO\CategoriaBO.cs" />
+    <Compile Include="BO\EstadoPedidoBO.cs" />
+    <Compile Include="BO\Galeria.cs" />
+    <Compile Include="BO\IngredienteM.cs" />
+    <Compile Include="BO\IngredientePrin.cs" />
+    <Compile Include="BO\MensajesBO.cs" />
+    <Compile Include="BO\PedidoBO.cs" />
+    <Compile Include="BO\PlatilloBO.cs" />
+    <Compile Include="BO\UsuarioBO.cs" />
+    <Compile Include="BO\VotacionBo.cs" />
+    <Compile Include="Controllers\Admin\AdministradorController.cs" />
+    <Compile Include="Controllers\CategoriaController.cs" />
+    <Compile Include="Controllers\ChatAdminController.cs" />
+    <Compile Include="Controllers\ChefinicioController.cs" />
+    <Compile Include="Controllers\DashBoardAprobadoController.cs" />
+    <Compile Include="Controllers\DashBoardController.cs" />
+    <Compile Include="Controllers\EstadoPedidoController.cs" />
+    <Compile Include="Controllers\EstadoPlatilloController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\PedidoUsuarioController.cs" />
+    <Compile Include="Controllers\PlatilloPrincipalController.cs" />
+    <Compile Include="Controllers\PrincipalController.cs" />
+    <Compile Include="Controllers\PruebaLoginController.cs" />
+    <Compile Include="Controllers\RegistroPro\RegistroPlatilloController.cs" />
+    <Compile Include="Controllers\ReportesController.cs" />
+    <Compile Include="Controllers\Usuario\AdminInicioController.cs" />
+    <Compile Include="Controllers\Usuario\UsuarioController.cs" />
+    <Compile Include="Controllers\VerPlatilloController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CategoriaModel.cs" />
+    <Compile Include="Models\ConexionModel.cs" />
+    <Compile Include="Models\DashBoard.cs" />
+    <Compile Include="Models\EstadoPedidoModel.cs" />
+    <Compile Include="Models\EstadoPlatilloModel.cs" />
+    <Compile Include="Models\MensajeModel.cs" />
+    <Compile Include="Models\PedidoModel.cs" />
+    <Compile Include="Models\PedidoUsuario.cs" />
+    <Compile Include="Models\PlatilloModel.cs" />
+    <Compile Include="Models\Registro.cs" />
+    <Compile Include="Models\ReportesModel.cs" />
+    <Compile Include="Models\Respaldo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\DS\Ingredientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ingredientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\DS\Usuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Usuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Viewers\ReporteChef.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteChef.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Viewers\ReporteIngredientes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteIngredientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Viewers\ReporteUsuarios.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteUsuarios.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\PaginaMaestra.cshtml" />
+    <Content Include="Views\Principal\InicioPrincipal.cshtml" />
+    <Content Include="Views\Menu\Menu.cshtml" />
+    <Content Include="Views\PlatilloPrincipal\PlatilloPrincipal.cshtml" />
+    <Content Include="RecursosAdmin\Login\scss\style.scss" />
+    <Content Include="Views\PaginasMaestras\UsuarioLogeado\UsuarioMaster.cshtml" />
+    <Content Include="Views\Principal\UsuarioPrincipal.cshtml" />
+    <Content Include="Views\Login\Loggin.cshtml" />
+    <Content Include="RecursosAdmin\Administrador\fonts\Pe-icon-7-stroke.eot" />
+    <Content Include="RecursosAdmin\Administrador\fonts\Pe-icon-7-stroke.ttf" />
+    <Content Include="RecursosAdmin\Administrador\fonts\Pe-icon-7-stroke.woff" />
+    <Content Include="Views\AdminInicio\InicioAdmin.cshtml" />
+    <Content Include="Views\Login\Loguen.cshtml" />
+    <Content Include="Views\Login\LoginP.cshtml" />
+    <Content Include="RecursosAdmin\Menu\fonts\fontawesome-webfont.eot" />
+    <Content Include="RecursosAdmin\Menu\fonts\fontawesome-webfont.ttf" />
+    <Content Include="RecursosAdmin\Menu\fonts\fontawesome-webfont.woff" />
+    <Content Include="RecursosAdmin\Menu\fonts\FontAwesome.otf" />
+    <Content Include="Views\VerPlatillo\VerPlatillo.cshtml" />
+    <Content Include="Views\ChatAdmin\ChatAdmin.cshtml" />
+    <Content Include="Views\RegistroPlatillo\RegistroPlatillo.cshtml" />
+    <Content Include="Views\RegistroPlatillo\RegistroUsuarios.cshtml" />
+    <Content Include="Views\RegistroPlatillo\WebAdministrador.cshtml" />
+    <Content Include="Views\RegistroPlatillo\Pedidos.cshtml" />
+    <Content Include="Views\Categoria\Categoria.cshtml" />
+    <Content Include="Views\ChatAdmin\Contacto.cshtml" />
+    <Content Include="Views\AdminInicio\InboxAdmin.cshtml" />
+    <Content Include="Views\RegistroPlatillo\ParcialPlatillo.cshtml" />
+    <Content Include="Views\RegistroPlatillo\MostrarPlatilloParcial.cshtml" />
+    <Content Include="Views\Usuario\Miperfil.cshtml" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\fonts\fontawesome-webfont.eot" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\fonts\fontawesome-webfont.ttf" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\fonts\fontawesome-webfont.woff" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\fonts\fontawesome-webfont.woff2" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\fonts\FontAwesome.otf" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\animated.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\bordered-pulled.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\core.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\fixed-width.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\font-awesome.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\icons.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\larger.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\list.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\mixins.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\path.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\rotated-flipped.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\screen-reader.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\stacked.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\less\variables.less" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\font-awesome.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_animated.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_bordered-pulled.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_core.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_fixed-width.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_icons.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_larger.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_list.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_mixins.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_path.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_rotated-flipped.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_screen-reader.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_stacked.scss" />
+    <Content Include="RecursosAdmin\Miperfil\fonts\scss\_variables.scss" />
+    <Content Include="Views\Usuario\TarjetaCredit.cshtml" />
+    <Content Include="Views\AdminInicio\ResponderAdmin.cshtml" />
+    <Content Include="Views\Administrador\Administrador.cshtml" />
+    <Content Include="Views\RegistroPlatillo\RegistarCategorias.cshtml" />
+    <Content Include="Views\Usuario\imboxUsuario.cshtml" />
+    <Content Include="Views\Usuario\ConfigurarCuenta.cshtml" />
+    <Content Include="Views\RegistroPlatillo\ActualizarCat.cshtml" />
+    <Content Include="Views\RegistroPlatillo\EstatusCategoria.cshtml" />
+    <Content Include="Views\RegistroPlatillo\IngredienteM.cshtml" />
+    <Content Include="Views\RegistroPlatillo\VistaIngrediente.cshtml" />
+    <Content Include="Views\RegistroPlatillo\vistaMedida.cshtml" />
+    <Content Include="Views\Usuario\ResponderUsuario.cshtml" />
+    <Content Include="Views\Menu\DetalleMenu.cshtml" />
+    <Content Include="Views\Login\RegistrarUsuario.cshtml" />
+    <Content Include="RecursosAdmin\RegistroPro\icons\fontawesome-webfont3294.eot" />
+    <Content Include="RecursosAdmin\RegistroPro\icons\fontawesome-webfont3294.ttf" />
+    <Content Include="RecursosAdmin\RegistroPro\icons\fontawesome-webfont3294.woff" />
+    <Content Include="RecursosAdmin\RegistroPro\icons\fontawesome-webfontd41d.eot" />
+    <Content Include="Views\Usuario\ActualizarUsu.cshtml" />
+    <Content Include="Views\Principal\ContactoInicio.cshtml" />
+    <Content Include="Views\RegistroPlatillo\AgregarChef.cshtml" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\fontawesome-webfont.eot" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\fontawesome-webfont.woff" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\FontAwesome.otf" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="RecursosAdmin\ChefAdmin\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Views\RegistroPlatillo\Agregaringredentespatillo.cshtml" />
+    <Content Include="Views\ChefAdmin.cshtml" />
+    <Content Include="Views\Chefinicio\InicioChef.cshtml" />
+    <Content Include="Views\Usuario\MenuUsu.cshtml" />
+    <Content Include="Views\Usuario\Platillovotacion.cshtml" />
+    <Content Include="Views\Administrador\Platillopingrediente.cshtml" />
+    <Content Include="Views\Administrador\Platillo.cshtml" />
+    <Content Include="Views\Administrador\Ingredientexplatillo.cshtml" />
+    <Content Include="Views\Administrador\Ingredientes.cshtml" />
+    <Content Include="Views\Administrador\Cantidad.cshtml" />
+    <Content Include="Views\Administrador\guardaring.cshtml" />
+    <Content Include="Views\Usuario\Mapa.cshtml" />
+    <Content Include="Views\Usuario\pruebamapa.cshtml" />
+    <Content Include="Views\Usuario\pruebamapa2.cshtml" />
+    <Content Include="Views\Menu\Ingrediente.cshtml" />
+    <Content Include="Reportes\DS\Usuarios.xsc">
+      <DependentUpon>Usuarios.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\DS\Ingredientes.xsc">
+      <DependentUpon>Ingredientes.xsd</DependentUpon>
+    </Content>
+    <Content Include="Renove\less\main.less" />
+    <Content Include="Renove\less\responsive.less" />
+    <Content Include="Renove\js\.DS_Store" />
+    <Content Include="Renove\images\.DS_Store" />
+    <Content Include="Renove\images\blog\.DS_Store" />
+    <Content Include="Renove\images\slider\.DS_Store" />
+    <Content Include="Renove\fonts\fontawesome-webfont.eot" />
+    <Content Include="Renove\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Renove\fonts\fontawesome-webfont.woff" />
+    <Content Include="Renove\fonts\FontAwesome.otf" />
+    <Content Include="Renove\fonts\ufonts.com_tw-cen-mt.ttf" />
+    <Content Include="Renove\bootstrap3modal\.DS_Store" />
+    <Content Include="Renove\bootstrap3modal\css\.DS_Store" />
+    <Content Include="Renove\bootstrap3modal\fonts\.DS_Store" />
+    <Content Include="Renove\bootstrap3modal\fonts\fontawesome-webfont.eot" />
+    <Content Include="Renove\bootstrap3modal\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Renove\bootstrap3modal\fonts\fontawesome-webfont.woff" />
+    <Content Include="Renove\bootstrap3modal\fonts\FontAwesome.otf" />
+    <Content Include="Renove\bootstrap3modal\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Renove\bootstrap3modal\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Renove\bootstrap3modal\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Renove\bootstrap3modal\plugins\.DS_Store" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\.DS_Store" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\css\.DS_Store" />
+    <Content Include="Renove\bootstrap3modal\plugins\iCheck\js\.DS_Store" />
+    <Content Include="Renove\jquerymodal\.DS_Store" />
+    <None Include="Properties\PublishProfiles\Ivan.pubxml" />
+    <None Include="Reportes\DS\Ingredientes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ingredientes.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Reportes\DS\Ingredientes.xss">
+      <DependentUpon>Ingredientes.xsd</DependentUpon>
+    </Content>
+    <None Include="Reportes\DS\Usuarios.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Usuarios.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Reportes\DS\Usuarios.xss">
+      <DependentUpon>Usuarios.xsd</DependentUpon>
+    </Content>
+    <Content Include="Views\Reportes\ReporteUsuario.cshtml" />
+    <Content Include="Views\Principal\Nosotros.cshtml" />
+    <Content Include="Views\EstadoPlatillo.cshtml" />
+    <Content Include="Views\Usuario\Factura.cshtml" />
+    <Content Include="Views\Usuario\ListadoGeneral.cshtml" />
+    <Content Include="Views\EstadoPedido\EstadoPedido.cshtml" />
+    <Content Include="Views\PedidoUsuario\PedidoUsuario.cshtml" />
+    <Content Include="Views\DashBoard\DashBoard.cshtml" />
+    <Content Include="Views\DashBoardAprobado\DashBoardAprobado.cshtml" />
+    <Content Include="Views\Administrador\VotacionPlatillo.cshtml" />
+    <Content Include="Views\AdminInicio\MensajesLeidos.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\EstadoPlatillo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reportes\Viewers\ReporteChef.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteChef.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Viewers\ReporteIngredientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteIngredientes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Viewers\ReporteUsuarios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteUsuarios.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51241</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51241/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

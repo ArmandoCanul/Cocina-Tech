@@ -1,0 +1,33 @@
+﻿@using System.Data
+@model DataTable 
+        
+    
+     
+            
+            @using (Html.BeginForm("guardaring", "Administrador", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+
+
+                    <div class="content">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Cantidad</label>
+                                    <input type="text" class="form-control" placeholder="Cantidad" name="Cantidad">
+                                </div>
+                            </div>
+                            @*<div class="row">
+                                <div class="col-md-2">
+                                    <input id="Button1" type="submit" value="Agregar Ingrediente" class="btn btn-info btn-fill pull-right" />
+                                </div>
+                            </div>*@
+                            </div>
+                        </div>
+                        
+            }
+             
+  
+               
+            
+            

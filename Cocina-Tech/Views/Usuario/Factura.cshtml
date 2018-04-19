@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Cocina_Tech.BO.PedidoBO>
+
+@{
+    ViewBag.Title = "Factura";
+    Layout = "~/Views/PaginasMaestras/UsuarioLogeado/UsuarioMaster.cshtml";
+    double TotalFinal = 0;
+}
+
+<link href="~/RecursosAdmin/Administrador/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
+
+<div class="container" id="main">
+    <div class="center-content" style="border:1px solid gray;width:80%">
+        <h2>Factura</h2>
+        <button class="btn btn-info btn-fill pull-right" onclick="printfactura()">Imprimir Factura</button>
+        <br /><br />
+        <div id="print-container" style="background-color:white">
+            <p>
+                Detalles de factura....
+            </p>
+            <table class="table table-striped table-condensed" id="tabla-pedido">
+                <thead>
+                    <tr style="border-bottom:1px solid black">
+                        <th>
+                            INFORMACION
+                        </th>
+                        <th>
+                            PLATILLOS
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        TotalFinal += item.TOTAL;
+
+                        <tr style="border-bottom:1px solid black">
+                            <td>
+                                <label>FECHA PEDIDO:</label>
+                                @Html.DisplayFor(modelItem => item.FECHAPEDIDO)<br />
+                                <label>HORA PEDIDO:</label>
+                                @Html.DisplayFor(modelItem => item.HORAPEDIDO)<br />
+                                <label>HORA ENTREGA:</label>
+                                @Html.DisplayFor(modelItem => item.HORAENTREGA)<br />
+                                <label>ESTADO: </label>
+                                @if (item.ESTADO)
+                                {
+                                    <label style="color:green">ENTREGADO</label>
+                                }
+                                else
+                                {
+                                    <label style="color:red">NO ENTREGADO</label>
+                                }
+                            </td>
+                            <td>
+                                @foreach (var detalles in item.DETALLES)
+                                {
+                                    <div class="row">
+                                        <div class="col-md-4">ID: @detalles.ID</div>
+                                        <div class="col-md-4">@detalles.NOMBRE</div>
+                                        <div class="col-md-4">@detalles.PRECIO</div>
+                                    </div>
+                                }
+                                <strong class="pull-right">Total: @Html.DisplayFor(modelItem => item.TOTAL)</strong>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <label>Total Final: @TotalFinal</label>
+        </div>
+    </div>
+</div>
+
+<script src="~/RecursosAdmin/js/jquery-1.11.2.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#tabla-pedido').DataTable({
+            "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
+            }
+        });
+    });
+
+    function printfactura() {
+        var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+
+        mywindow.document.write('<html><head><title>Folio: 00001</title>');
+
+        mywindow.document.write('</head><body >');
+        mywindow.document.write('<h1>FACTURA</h1>');
+        mywindow.document.write(document.getElementById("print-container").innerHTML);
+        mywindow.document.write('</body></html>');
+
+        mywindow.document.close(); // necessary for IE >= 10
+        mywindow.focus(); // necessary for IE >= 10*/
+
+        mywindow.print();
+        mywindow.close();
+
+        return true;
+    }
+</script>
+
+

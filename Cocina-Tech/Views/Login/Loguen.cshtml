@@ -1,0 +1,33 @@
+﻿@model Cocina_Tech.BO.UsuarioBO
+
+@{
+    ViewBag.Title = "Loguen";
+    Layout = "~/Views/Login/Loggin.cshtml";
+}
+@using (Ajax.BeginForm("Loguearse", "Login", new AjaxOptions() { HttpMethod = "POST" }))
+{
+<div id="login">
+    <h1>Bienvenido Cocina Tech</h1>
+
+
+    <div class="field-wrap">
+        <label>
+            Usuario<span class="req">*</span>
+        </label>
+        <input type="email" required autocomplete="off" name="Usuario" />
+    </div>
+
+    <div class="field-wrap">
+        <label>
+            Contraseña<span class="req">*</span>
+        </label>
+        <input type="password" required autocomplete="off" name="Contraseña" />
+    </div>
+
+
+    <button class="button button-block">Iniciar Sesion</button>
+
+</div>
+}
+
+

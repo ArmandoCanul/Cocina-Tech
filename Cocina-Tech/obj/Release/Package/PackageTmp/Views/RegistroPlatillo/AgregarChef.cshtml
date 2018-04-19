@@ -1,0 +1,153 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "AgregarChef";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+
+
+
+    <div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                @* @Html.ActionLink("Reporte", "ReporteChef", "Reportes")*@
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">REGISTRO CHEF</h4>
+                    </div>
+                    <div class="content">
+                        @using (Html.BeginForm("chefEmpleado", "RegistroPlatillo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Nombres</label>
+                                <input type="text" class="form-control" placeholder="Nombres" name="Nombre">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Apellidos</label>
+                                <input type="text" class="form-control" placeholder="Apellidos" name="Apellido">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" placeholder="Email" name="Correo">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Contraseña</label>
+                            <input type="text" class="form-control" placeholder="Contraseña" name="Contraseña">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label>Usuario</label>
+                            <input type="text" class="form-control" placeholder="Username" name="Usuario">
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Fecha De Nacimiento</label>
+                                <input type="date" class="form-control" placeholder="" id="FechaNaci" name="FechaNac">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Telefono</label>
+                                <input type="text" class="form-control" placeholder="Telefono" name="Telefono">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Foto De Perfil</label>
+                                <input id="File1" type="file" name="Fotografia" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="submit" class="btn btn-info btn-fill pull-right">Guardar</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+}
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+
+                                <div class="panel-body panel-body-table">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-striped table-actions">
+                                            <thead>
+                                                <tr>
+                                                    <th width="50">ID</th>
+                                                    <th>NOMBRE CHEF</th>
+                                                    <th width="100">APELLIDOS</th>
+                                                    <th width="100">TELEFONO</th>
+                                                    <th width="100">FECHA DE NACIMIENTO</th>
+                                                    <th width="100">CORREO</th>
+                                                    <th width="100">USUARIO</th>
+                                                    <th width="100">ESTADO</th>
+                                                    <th width="100">ACCION</th>
+
+                                                </tr>
+                                            </thead>
+                                            @foreach (DataRow row in Model.Rows)
+                                {
+                                    <tbody>
+
+
+                                        <tr id="trow_1">
+                                            <td class="text-center">@row["ID"]</td>
+                                            <td><strong>@row["NOMBRE"]</strong></td>
+                                            <td><strong>@row["APELLIDOS"]</strong></td>
+                                            <td><strong>@row["TELEFONO"]</strong></td>
+                                            <td>@row["FECHANACIMIENTO"]</td>
+                                            <td><strong>@row["CORREO"]</strong></td>
+                                            <td><strong>@row["USUARIO"]</strong></td>
+                                            <td><span class="label label-success">@row["ESTADO"]</span></td>
+                                            <td>
+                                                <button class="btn btn-default btn-rounded btn-sm"><span class="fa fa-pencil"></span></button>
+                                                <button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='@($"/RegistroPlatillo/Eliminarcat/{@row["ID"]}")'">
+
+                                                    <span class="fa fa-times">
+                                                        @*@Html.ActionLink("Eliminar", "Eliminarcat", "RegistroPlatillo", new { ID = row["ID"] })*@
+                                                    </span>
+                                                </button>
+                                            </td>
+
+                                    </tbody>
+                    }
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            </div>
+
+</div>
+</div>
+
+

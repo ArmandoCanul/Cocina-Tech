@@ -1,0 +1,159 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "ResponderUsuario";
+    Layout = "~/Views/PaginasMaestras/UsuarioLogeado/UsuarioMaster.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="~/RecursosAdmin/Miperfil/css/style.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Miperfil/fonts/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Miperfil/css/Redimensionar.css" rel="stylesheet" />
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<link href="~/RecursosAdmin/Chat/Responder.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Chat/VerMensaje.css" rel="stylesheet" />
+<link href="~/RecursosAdmin/Miperfil/css/Redimensionar.css" rel="stylesheet" />
+
+<div class="container" id="main" style="margin: 84px ">
+    <div class="row">
+
+
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+            <div id="sidebar">
+                <div class="sosmed">
+                    <div class="text-center">
+                        <a href="#"><i data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+                        <a href="#"><i data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+                        <a href="#"><i data-toggle="tooltip" data-placement="top" title="Google Plus"></i></a>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="text-center">
+                        @if (Session["Foto"] != null)
+                        {
+                            string Fot = "data:image/jpeg;base64," + Convert.ToBase64String((byte[])Session["Foto"]);
+                            <img class="avatar border-gray max-width: 98%;" src="@Fot" alt="..." />
+
+                        }
+                        else
+                        {
+                            <img src="~/RecursosAdmin/Miperfil/img/user.jpg" class="img-circle">
+
+                        }
+                        @*<input id="File1" type="file" class="btn btn-primary" />*@
+
+
+                    </div>
+                    <div class="user-head">
+                        <h1>@Session["Nombre_usu"]</h1>
+                        <div class="hr-center"></div>
+                    </div>
+                </div>
+                <div class="link-me">
+                    <div class="text-center">
+                        <a href="#"><i class="fa fa-credit-card" data-toggle="tooltip" data-placement="top" title="Ingresar Tarjeta"></i></a>
+                        <a href="~/Usuario/imboxUsuario"><i class="fa fa-envelope-open" data-toggle="tooltip" data-placement="top" title="Imbox"></i></a>
+                        <a href="#"><i class="fa fa-cog" data-toggle="tooltip" data-placement="top" title="Configurar Mi Usuario"></i></a>
+                    </div>
+                    <div class="hr-center"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+            <div id="content" style="border-top: 68px solid #16a085">
+                <!-- start:navbar -->
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                </nav>
+                <div class="mail-box">
+                 
+                    <aside class="lg-side">
+                        <div class="inbox-head">
+                            <h3>Inbox</h3>
+                            <form action="#" class="pull-right position">
+                                <div class="input-append">
+                                    <input type="text" class="sr-input" placeholder="Search Mail">
+                                    <button class="btn sr-btn" type="button"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="inbox-body">
+                            @foreach (DataRow row in Model.Rows)
+                            {
+                                <div class="panel panel-default">
+
+                                    <div class="panel-body message">
+
+                                        <div class="header">
+
+                                            <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+
+
+                                            <div class="from">
+                                                <label>REMITENTE</label>
+                                                <span>@row["Remitente"]</span>
+
+                                            </div>
+                                            <div class="date">
+                                                <label>FECHA DE ENVIO</label>
+                                                <span class="fa fa-paper-clip"></span><b>@row["Fecha"]</b>
+                                            </div>
+
+                                            <div class="menu"></div>
+
+                                        </div>
+                                        @using (Ajax.BeginForm("Responder", "Usuario", new AjaxOptions() { HttpMethod = "POST" }))
+                                        {
+                                            <div class="content">
+                                                <label name="Asunto">ASUNTO:</label>
+                                                <p>
+                                                    @row["Asunto"]
+                                                </p>
+                                                <label>MENSAJE</label>
+                                                <blockquote>
+                                                    @row["Mensaje"]
+                                                </blockquote>
+                                            </div>
+                                            <input type="text" name="idenvia2" value="@row["IDusuairoenvia"]" style="display:none">
+                                            <input type="text" name="Asunto" value="@row["Asunto"]" style="display:none">
+
+
+                                            <form method="post" action="">
+
+                                                <div class="form-group">
+                                                    <label>RESPONDER</label>
+                                                    <textarea class="form-control" id="message" name="Mensaje" rows="12" placeholder="Click here to reply"></textarea>
+
+                                                </div>
+
+                                                <div class="form-group">
+
+                                                    <button tabindex="3" type="submit" class="btn btn-success">Enviar</button>
+
+                                                </div>
+                                                
+                                            </form>
+                                        }
+                                    </div>
+                            
+                                </div>     }
+                            
+                        </div>
+                        
+
+                    </aside>
+                </div>
+            </div>
+
+            </div>
+</div>
+</div>

@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "pruebamapa";
+    Layout = "~/Views/PaginasMaestras/UsuarioLogeado/UsuarioMaster.cshtml";
+}
+
+<h2>pruebamapa</h2>
+
+<div class="col-md-4">
+    <div class="form-group">
+        @{
+            Html.RenderAction("Mapa", "Usuario");
+        }
+    </div>
+</div>

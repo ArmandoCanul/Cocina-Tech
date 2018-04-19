@@ -1,0 +1,46 @@
+﻿@using System.Data;
+@model DataTable
+
+@{
+    ViewBag.Title = "Menu";
+    Layout = "~/Views/PaginaMaestra.cshtml";
+}
+
+<link href="~/RecursosAdmin/Menu/css/style.css" rel="stylesheet" />
+<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+
+    <section id="portfolio" class="portfolio">
+
+            <div class="menu">
+                <div class="container">
+                    <div class="menu-heading">
+                        <h2>MENU</h2>
+                       
+                    </div>
+                       
+
+                        @foreach (DataRow row in Model.Rows)
+                        {
+
+                            <div class="row" style="border: 1px solid orange; margin:auto; margin-bottom:20px; width:70%; ">
+                                <div class="col-md-3" style="border-right:1px solid orange">
+                                    @{
+                                        string Fot = "data:image/jpeg;base64," + Convert.ToBase64String((byte[])@row["PORTADA"]);
+                                        <img class="avatar border-gray" src="@Fot" alt="..." height="120" width="160" />
+                                    }
+                                </div>
+                                <div class="col-md-9">
+                                    <h4>@row["NOMBRE"]</h4>
+                                    <p>@row["PRECIO"]</p>
+                                    <button button type="submit" class="btn btn-info btn-fill pull-right" ><img class="avatar-border-gray"src="~/Renove/images/nuevo-icono-google-play-escritorio-1.jpg"height="30"width="40"</button>
+                                    
+                                </div>
+                            </div>
+
+                                                    }
+                    </div>
+            </div>
+      
+   
+        </section>

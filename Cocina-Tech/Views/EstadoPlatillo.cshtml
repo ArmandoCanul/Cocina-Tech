@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "EstadoPlatillo";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+
+@using (Ajax.BeginForm("EstadoPlatillo", "EstadoPlatillo", new AjaxOptions() { HttpMethod = "POST" }))
+{
+
+    @Html.AntiForgeryToken();
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title">Estado del Platillo</h4>
+                        </div>
+                        <div class="content">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <input type="text" class="form-control" placeholder="Platillo" name="Nombre">
+                                    </div>
+                                </div>                     
+                            </div>
+                            <input id="Button1" type="submit" value="button" class="button button-block" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

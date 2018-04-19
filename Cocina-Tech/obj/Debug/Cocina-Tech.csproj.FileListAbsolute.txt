@@ -1,0 +1,1001 @@
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+F:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+E:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+G:\Dia hOY\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\02-11-2017\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+F:\sign-up-login-form\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+G:\sign-up-login-form\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.Shared.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\jacqu\Desktop\4 cuatrimestre\Aplicaciones ll\Proyecto Integrador\09-11-2017\Jorge\Cocina-Tech\Cocina-Tech\bin\stdole.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\stdole.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+D:\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+D:\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportSource.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.Shared.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\stdole.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+E:\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+E:\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\stdole.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\Alex Oxte\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csproj.CoreCompileInputs.cache
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\francisco2\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\Francisco\Desktop\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csproj.CoreCompileInputs.cache
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csproj.CopyComplete
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Newtonsoft.Json.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Net.Http.Formatting.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.WebHost.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\Newtonsoft.Json.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Net.Http.Formatting.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.WebHost.xml
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Http.resources.dll
+C:\Users\JesusCanul\Documents\Proyecto 2\Jorge\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Newtonsoft.Json.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Net.Http.Formatting.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.WebHost.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Newtonsoft.Json.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Net.Http.Formatting.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.WebHost.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Http.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\Francisco\Desktop\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\ApplicationInsights.config
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\csc.exe
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\vbc.exe
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll.config
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Cocina-Tech.pdb
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Newtonsoft.Json.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Net.Http.Formatting.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.WebHost.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.Web.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\Newtonsoft.Json.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Net.Http.Formatting.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Http.WebHost.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Razor.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Deployment.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Webpages.Razor.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Helpers.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\System.Web.Mvc.xml
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Http.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Razor.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csprojResolveAssemblyReference.cache
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csproj.CoreCompileInputs.cache
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.csproj.CopyComplete
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.dll
+C:\Users\JesusCanul\Documents\SERVIDOR\Cocina-Tech\Cocina-Tech\obj\Debug\Cocina-Tech.pdb

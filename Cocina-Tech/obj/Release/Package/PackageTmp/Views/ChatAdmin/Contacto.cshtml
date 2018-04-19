@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Contacto";
+    Layout = "~/Views/PaginasMaestras/UsuarioLogeado/UsuarioMaster.cshtml";
+}
+
+  
+   
+   
+    
+<link href="~/RecursosAdmin/Chat/Contacto.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Asap:700" rel="stylesheet" type="text/css">
+
+
+    <section class="contactcharacter" id="about">
+        <div class="contentwrapper" id="contact">
+
+            <div class="character">
+                <div class="body"></div>
+                <div class="arm inactive"></div>
+                <div class="head inactive">
+                    <div class="eyes"></div>
+                </div>
+                <div class="mug">
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                </div>
+                <div class="contactme">
+                    <div class="arrow"></div>
+                </div>
+                <div class="thoughts">
+
+                    <div class="abouttype">
+                        <p>BIENVENIDO</p>
+                        <div class="imacontainer"><span class="ima" style="opacity: 1; display: inline;">ADMINISTRADOR</span></div>
+                        <p>COCINA TECH EL MEJOR LUGAR PARA ORDENAR</p>
+
+
+                        <span class="imawhat">¿Tienes Alguna Duda?</span>
+                        <span class="imawhat">BIENVENIDO</span>
+                        <span class="imawhat">VISITA NUESTRO MENU</span>
+                        <span class="imawhat">DUDAS O SUGERENCIAS</span>
+                    </div>
+
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+
+                </div>
+            </div>
+        </div>
+@using (Ajax.BeginForm("ContactoA", "ChatAdmin", new AjaxOptions() { HttpMethod = "POST" }))
+{
+        <div class="contact inactive">
+            <span class="closer"></span>
+            <form>
+                <input class="input name" name="Asunto" id="Asunto" type="text" value="" placeholder="Asunto">
+                @*<input class="input email" name="email" type="email" value="" placeholder="email">*@
+                <textarea class="input message" name="Mensaje" id="Mensaje" placeholder="Mensaje"></textarea>
+                <input name="commit" type="submit" value="Enviar" class="submit">
+            </form>
+        </div>
+}
+
+
+        <script src="~/RecursosAdmin/js/jquery-1.11.2.min.js"></script>
+
+    </section>
+    <script>
+    var cnt=0, texts=[];
+var $fclick = false;
+
+
+$(".imawhat").each(function() {
+  texts[cnt++]=$(this).text();
+});
+
+function fadeText() {
+  if (cnt>=texts.length) { cnt=0; }
+  $('.ima').html(texts[cnt++]);
+  $('.ima')
+    .fadeIn('fast').animate({opacity: 1.0}, 5000).fadeOut('fast',
+     function() {
+       return fadeText();
+     }
+  );
+}
+
+function toggleForm() {
+  if ($fclick === true) {
+    $(".contact, .head, .arm").toggleClass("active inactive");
+  } else {
+    $(".contact, .head, .arm").addClass("active");
+    $fclick = true;
+  }
+}
+
+$(".contactme, .arrow, .closer, .submit").on("click", toggleForm);
+
+fadeText();
+    </script>
+    <script type="text/javascript">
+
+    </script>
+
+
+

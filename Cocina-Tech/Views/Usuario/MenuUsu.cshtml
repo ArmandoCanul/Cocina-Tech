@@ -1,0 +1,48 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "MenuUsu";
+    Layout = "~/Views/PaginasMaestras/UsuarioLogeado/UsuarioMaster.cshtml";
+}
+
+
+<link href="~/RecursosAdmin/Menu/css/style.css" rel="stylesheet" />
+<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+
+<section id="portfolio" class="portfolio">
+
+    <div class="menu">
+        <div class="container">
+            <div class="menu-heading">
+                <h2>Our Menu</h2>
+            </div>
+            @foreach (DataRow row in Model.Rows)
+            {
+
+                <div class="menu-top-grids">
+                    <div class="w3ls-menu-grids">
+                        <div class="col-md-3 menu-grid">
+                            <div class="agile-menu-grid">
+                                <a href="single.html">
+                                    @{
+                                        string Fot = "data:image/jpeg;base64," + Convert.ToBase64String((byte[])@row["PORTADA"]);
+                                        <img class="avatar border-gray" src="@Fot" alt="..." />
+                                    }
+                                    <div class="agileits-caption">
+                                        <h4>@row["NOMBRE"]</h4>
+                                        <p>@row["PRECIO"]</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                                        }
+        </div>
+    </div>
+
+
+</section>

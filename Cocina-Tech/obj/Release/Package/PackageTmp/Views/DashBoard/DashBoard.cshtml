@@ -1,0 +1,71 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "DashBoard";
+    Layout = "~/Views/ChefAdmin.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">PEDIDOS POR APROBAR</h4>
+                    </div>
+                    <div class="content">
+                        <form>
+                            <div class="row">
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body panel-body-table">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered table-striped table-actions">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="50">ID</th>
+                                                                <th>PLATILLO</th>
+                                                                <th>ESTADO</th>
+                                                                <th>ID ESTADO</th>
+                                                                <th width="100">ACCION</th>
+                                                            </tr>
+                                                        </thead>
+
+
+
+                                                        @foreach (DataRow row in Model.Rows)
+                {
+                    var mod = Model.Rows.Count;
+
+                                        <tbody>
+                                            <tr id="trow_1">
+                                                <td class="text-center">@row["ID"]</td>
+                                                <td class="text-center">@row["NOMBREPLATILLO"]</td>
+                                                <td class="text-center">@row["ESTADO"]</td>
+                                                <td class="text-center">@row["IDESTADO"]</td>
+                                                <td>
+                                                    @*<button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='@($"/EstadoPlatillo/Eliminar/{@row["IDEstado"]}")'">*@
+                                                    <a class="btn btn-default btn-rounded btn-sm" href="@Url.Action("Aprobar", "DashBoard", new { ID = row["ID"]})"><span class="fa fa-pencil"></span></a>
+                                                    <a class="btn btn-danger btn-rounded btn-sm" href="@Url.Action("Eliminar", "DashBoard", new { ID = row["ID"]})">
+                                                        <span class="fa fa-times">
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tbody>
+}
+                                                    </table>
+                                                </div>                                              
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

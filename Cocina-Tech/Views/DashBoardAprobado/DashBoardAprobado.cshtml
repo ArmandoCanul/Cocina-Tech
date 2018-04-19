@@ -1,0 +1,79 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "DashBoardAprobado";
+    Layout = "~/Views/ChefAdmin.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">PEDIDOS APROBADOS</h4>
+                    </div>
+                    <div class="content">
+                        <form>
+                            <div class="row">
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default">
+
+                                            <div class="panel-body panel-body-table">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered table-striped table-actions">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="50">ID</th>
+                                                                <th>PLATILLO</th>
+                                                                <th>ESTADO</th>
+                                                                <th>ESTADO PLATILLO</th>
+                                                                <th width="100">ACCION</th>
+                                                            </tr>
+                                                        </thead>
+
+
+
+                                                        @foreach (DataRow row in Model.Rows)
+                                                        {
+                                                            var mod = Model.Rows.Count;
+
+                                                            <tbody>
+                                                                <tr id="trow_1">
+                                                                    <td class="text-center">@row["ID"]</td>
+                                                                    <td class="text-center">@row["NOMBREPLATILLO"]</td>
+                                                                    <td class="text-center">@row["ESTADO"]</td>
+                                                                    <td class="text-center">@row["NOMBRE"]</td>
+                                                                    <td>
+                                                                        @*<button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='@($"/EstadoPlatillo/Eliminar/{@row["IDEstado"]}")'">*@
+                                                                        <a class="btn btn-success btn-rounded btn-sm" href="@Url.Action("EstadoEntregado", "DashBoardAprobado", new { ID = row["ID"]})"><span class="fa fa-check"></span></a>
+
+                                                                        <a class="btn btn-default btn-rounded btn-sm" href="@Url.Action("EstadoEnCamino", "DashBoardAprobado", new { ID = row["ID"]})">
+                                                                            <span class="fa fa-automobile"></span>
+                                                                        </a>
+                                                                        <a class="btn btn-default btn-rounded btn-sm" href="@Url.Action("EstadoPendiente", "DashBoardAprobado", new { ID = row["ID"]})"><span class="fa fa-history"></span></a>
+                                                                        <a class="btn btn-default btn-rounded btn-sm" href="@Url.Action("EstadoPreparando", "DashBoardAprobado", new { ID = row["ID"]})">
+                                                                            <span class="fa fa-wrench">
+                                                                            </span>
+                                                                        </a>
+                                                                    </td>
+                                                            </tbody>
+                                                        }
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

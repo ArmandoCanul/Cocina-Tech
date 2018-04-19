@@ -1,0 +1,87 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "RegistarCategorias";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">CATEGORIAS</h4>
+                    </div>
+                    <div class="content">
+
+                        <div class="row">
+                            @using (Ajax.BeginForm("Agregar", "RegistroPlatillo", new AjaxOptions() { HttpMethod = "POST" }))
+                            { 
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label>Nombre De la Categoria de Platillo</label>
+                                    <input type="text" class="form-control" placeholder="CATEGORIA" name="Nombre" id="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-2" style="margin-top:22px">
+                                <input id="Button1" type="submit" value="GUARDAR" class="btn btn-info btn-fill" />
+                            </div>
+                            }
+                            </div>
+
+
+            <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                  
+                                    <div class="panel-body panel-body-table">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped table-actions">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="50">ID</th>
+                                                        <th>NOMBRE CATEGORIA</th>
+                                                        <th width="100">ESTADO</th>
+                                                        <th width="100">FECHA</th>
+                                                        <th width="100">actions</th>
+                                                    </tr>
+                                                </thead>
+@foreach (DataRow row in Model.Rows)
+{
+                                                <tbody>
+
+
+                                                    <tr id="trow_1">
+                                                        <td class="text-center">@row["ID"]</td>
+                                                        <td><strong>@row["NOMBRE"]</strong></td>
+                                                        <td><span class="label label-success">@row["ESTADO"]</span></td>
+                                                        <td>@row["FECHACREACION"]</td>
+                                                        <td>
+                                                           <button class="btn btn-default btn-rounded btn-sm"><span class="fa fa-pencil"></span></button>
+                                                    <button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='@($"/RegistroPlatillo/Eliminarcat/{@row["ID"]}")'" >
+                                                       
+                                                            <span class="fa fa-times">
+                                                                @*@Html.ActionLink("Eliminar", "Eliminarcat", "RegistroPlatillo", new { ID = row["ID"] })*@
+                                                            </span>
+                                                            </button>
+                                                        </td>
+                                                  
+                                                </tbody>
+}
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                           
+                                
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

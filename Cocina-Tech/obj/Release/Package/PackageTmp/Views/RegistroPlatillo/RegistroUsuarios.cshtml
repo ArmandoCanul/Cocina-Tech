@@ -1,0 +1,64 @@
+﻿@using System.Data;
+@model DataTable
+@{
+    ViewBag.Title = "RegistroUsuarios";
+    Layout = "~/Views/Administrador/Administrador.cshtml";
+}
+
+<div class="row">
+
+  
+    <div class="col-md-12">
+        @*@Html.ActionLink("Reporte", "ReporteUsuario", "Reportes")*@
+
+        <div class="panel panel-default">
+
+            <div class="panel-body panel-body-table">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-actions">
+                        <thead>
+                            <tr>
+                                <th width="50">ID</th>
+                                <th>NOMBRE</th>
+                                <th>APELLIDOS</th>
+                                <th width="100">TELEFONO</th>
+                                <th width="100">FECHANACIMIENTO</th>
+                                <th width="100">CORREO</th>
+                                <th width="100">USUARIO</th>
+                                <th width="100">ESTADO</th>
+
+                                <th width="100">ACCIONES</th>
+                            </tr>
+                        </thead>
+                        @foreach (DataRow row in Model.Rows)
+                    {
+                        <tbody>
+
+
+                            <tr id="trow_1">
+                                <td class="text-center">@row["ID"]</td>
+                                <td><strong>@row["NOMBRE"]</strong></td>
+                                <td><strong>@row["APELLIDOS"]</strong></td>
+                                <td>@row["TELEFONO"]</td>
+                                <td><strong>@row["FECHANACIMIENTO"]</strong></td>
+                                <td><strong>@row["CORREO"]</strong></td>
+                                <td><strong>@row["USUARIO"]</strong></td>
+                                <td><span class="label label-success">@row["ESTADO"]</span></td>
+                                <td>
+
+                                    <button class="btn btn-danger btn-rounded btn-sm" onclick="location.href='@($"/RegistroPlatillo/EliminarUsu/{@row["ID"]}")'">
+
+                                        <span class="fa fa-times">
+                                            @*@Html.ActionLink("Eliminar", "Eliminarcat", "RegistroPlatillo", new { ID = row["ID"] })*@
+                                        </span>
+                                    </button>
+                                </td>
+
+                        </tbody>
+                }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

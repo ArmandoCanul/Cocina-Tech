@@ -1,0 +1,11 @@
+﻿@model Cocina_Tech.BO.IngredientePrin
+
+<div class="cold-md-3">
+
+    <div class="form-group">
+        <label>Categoria</label>
+        @Html.DropDownListFor(x => x.idMedida, new SelectList(Model.Medidas, "IDM", "MEDIDA"), new { @class = "form-control" })
+    </div>
+
+
+</div>
