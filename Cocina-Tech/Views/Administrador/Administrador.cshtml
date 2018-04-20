@@ -82,7 +82,7 @@
                             <p>Registro Pedidos</p>
                         </a>
                     </li>
-                    <li id="menu-registropedido">
+                    <li id="menu-estadopedido">
                         <a href="~/EstadoPedido/EstadoPedido">
                             <img src="~/Renove/images/001-to-do-list.png" width="38" style="float: left;margin-right: 15px;line-height: 30px;text-align: center;" />
                             <p>Estado Pedidos</p>
@@ -278,6 +278,10 @@
             else if (window.location.href.indexOf("RegistroPlatillo") > -1) {
                 $(".sidebar-wrapper li").removeClass("active");
                 $("#menu-registroplatillo").addClass("active");
+            }
+            else if (window.location.href.indexOf("EstadoPedido") > -1) {
+                $(".sidebar-wrapper li").removeClass("active");
+                $("#menu-estadopedido").addClass("active");
             }
         });
     </script>

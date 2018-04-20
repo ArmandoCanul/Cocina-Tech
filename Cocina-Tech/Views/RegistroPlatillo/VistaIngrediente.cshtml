@@ -69,7 +69,7 @@
                                                                     <tr id="trow_1">
                                                                         <td class="text-center">@row["ID"]</td>
                                                                         <td><strong>@row["NOMBRE"]</strong></td>
-                                                                        <td><span class="label label-success">@row["Estado"]</span></td>
+                                                                        <td><span class="label label-success">@(row["Estado"].ToString()=="True" ? "Disponible" : "No Disponible")</span></td>
                                                                         <td>@row["MEDIDA"]</td>
                                                                         <td>@row["FECHACREACION"]</td>
                                                                         <td>@row["IDMEDIDA"]</td>
